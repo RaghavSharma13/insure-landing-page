@@ -1,0 +1,42 @@
+.footer{
+    width:100%;
+    justify-content:flex-start;
+    align-items:center;
+    margin:80px 0px;
+    padding:40px;
+    background-color:var(--VeryLightGray);
+}
+.footer--header{
+    width:30%;
+    text-align:center;
+}
+.footer--iconBar{
+    margin:30px 0px;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.footer--iconBar>img{
+    opacity:0.6;
+    transition:opacity 250ms ease;
+    cursor:pointer;
+}
+.footer--iconBar>img:hover{
+    opacity:1;
+}
+#footer--line{
+    display:block;
+    width:90%;
+    height:1px;
+    background-color:lightgray;
+}
+@media (min-width:800px){
+    .footer--header{
+        width:85%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+    .footer--iconBar{
+        width:20%;
+    }
+}

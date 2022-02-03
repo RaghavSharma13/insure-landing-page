@@ -1,0 +1,32 @@
+.footerListCard{
+    justify-content: flex-start;
+    align-items:center;
+    min-height:160px;
+}
+h4{
+    color:gray;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:0.8rem;
+    font-weight:700;
+    letter-spacing:0.125rem;
+    font-family: 'Karla', sans-serif;
+    margin-bottom:40px;
+}
+.footerListCard>ul{
+    text-align:center;
+    list-style:none;
+    color:var(--VeryDarkViolet);
+    text-transform:uppercase;
+    font-size:0.8rem;
+    font-weight: 700;
+}
+.footerListCard>ul li{
+    margin-bottom:10px;
+    letter-spacing: 0.125rem;
+    cursor:pointer;
+    transition:all 300ms ease-in-out;
+}
+.footerListCard>ul li:hover{
+    border-bottom:1px solid var(--VeryDarkViolet);
+}
